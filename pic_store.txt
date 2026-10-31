@@ -1,3 +1,5 @@
 banana
 apple
 pink fruit
+orange
+pineapple
