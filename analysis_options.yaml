@@ -1,0 +1,9 @@
+# 本项目不依赖 flutter_lints，保持零第三方依赖。
+analyzer:
+  language:
+    strict-casts: true
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_single_quotes

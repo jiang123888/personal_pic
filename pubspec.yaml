@@ -1,0 +1,19 @@
+name: private_vault
+description: "轻量级本地隐私保险箱：对图片/音频/视频做 AES-256 加密并隐藏，仅在本应用内查看。"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
