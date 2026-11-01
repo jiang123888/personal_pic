@@ -1,3 +1,4 @@
+# ---- 系统垃圾文件 ----
 # Windows
 Thumbs.db
 ehthumbs.db
@@ -7,18 +8,46 @@ desktop.ini
 # macOS
 .DS_Store
 
-# 编辑器
+# ---- 编辑器 ----
 .vscode/
 .idea/
+*.iml
+*.ipr
+*.iws
 *.swp
 
-# 临时文件
+# ---- 临时文件 ----
 *~
 *.tmp
 *.bak
-
-# Office 临时文件
 ~$*
+*.class
+*.log
+*.pyc
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# Flutter 应用（独立工程，避免污染图片仓库）
-/PrivateVault/
+# ---- Flutter / Dart ----
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+app.*.symbols
+app.*.map.json
+
+# Android Studio 构建产物
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# 图标生成时的预览图
+/tool/*_preview.png
