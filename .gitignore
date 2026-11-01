@@ -19,3 +19,6 @@ desktop.ini
 
 # Office 临时文件
 ~$*
+
+# Flutter 应用（独立工程，避免污染图片仓库）
+/PrivateVault/
